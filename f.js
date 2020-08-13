@@ -39,7 +39,7 @@ function generarOnda(){
 
         ctx.beginPath();
 
-        var dir = "rigth";
+        var dir = "right";
         if(dir === "right"){
             ctx.arc(100 + (20*onda_actual), 100, radio_inicial, -Math.PI * (90 / 180), Math.PI* (90/180));
         }
