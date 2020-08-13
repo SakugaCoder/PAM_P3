@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido promocional</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <h2 class="display-3 text-center">Comunicación V2V</h2>
+    
+    <div class="portada">
+        <button class="btn btn-primary" onclick="testV2V();">Test</button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="auto1">
+                <img src="c2.png" alt="Auto #1">
+            </div>
+            <div class="col-md-4" id="contenedorCanvas">
+                <canvas id="canvas">
+
+                </canvas>
+            </div>
+            <div class="col-md-4" id="auto2">
+                <img src="c1.png" alt="Auto #2">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="estado alert alert-danger" id="con-1">
+                    <p class="text-center" id="estado-c1">Inactivo</p>
+                </div>
+            </div>
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <div class="estado alert alert-danger" id="con-2">
+                    <p class="text-center" id="estado-c2">Inactivo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="f.js"></script>
+</body>
+</html>
