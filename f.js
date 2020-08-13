@@ -27,6 +27,11 @@ function enviarDatos(auto_remitiente, auto_receptor, datos){
     con1.classList.remove("alert-danger");
     con1.classList.add("alert-success");
     e1.textContent = "Enviando "+datos +"...";
+
+
+    con2.classList.add("alert-danger");
+    con2.classList.remove("alert-success");
+    e2.textContent = "Inactivo";
 }
 
 function generarOnda(datos){
