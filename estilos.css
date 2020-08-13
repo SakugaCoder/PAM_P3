@@ -12,17 +12,18 @@
     background-attachment: fixed;
 }
 
+/* Centra boton*/
 .portada button{
     margin: auto;
 }
 
 
 /* Cambia maximo tamaño imagenes */
-
 #auto1 img, #auto2 img{
     max-width: 400px;
 }
 
+/* Cambia maximo tanmaño de canvas*/
 #canvas{
     max-width: 400px;
 }
